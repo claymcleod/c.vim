@@ -1,23 +1,18 @@
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == idioms.function ==
-void<CURSOR>
-|?FUNCTION_NAME| ( <+argument list+> )
+void<CURSOR> |?FUNCTION_NAME| ( <+argument list+> )
 {
 <SPLIT>	return <+return value+>;
 }		// -----  end of function |FUNCTION_NAME|  -----
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == idioms.function-static ==
-static void<CURSOR>
-|?FUNCTION_NAME| ( <+argument list+> )
+static void<CURSOR> |?FUNCTION_NAME| ( <+argument list+> )
 {
 <SPLIT>	return <+return value+>;
 }		// -----  end of static function |FUNCTION_NAME|  -----
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == idioms.main ==
-#include	<cstdlib>
-
-int
-main ( int argc, char *argv[] )
+int main ( int argc, char *argv[] )
 {<CURSOR>
 <SPLIT>	return EXIT_SUCCESS;
 }				// ----------  end of function main  ----------
@@ -93,7 +88,7 @@ if( fclose(|FILEPOINTER|) == EOF ) {			// close input file
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == idioms.open-output-file ==
-FILE	*|?FILEPOINTER|;										// output-file pointer
+FILE	*|?FILEPOINTER|;							// output-file pointer
 char	*|FILEPOINTER|_file_name = "<CURSOR>";		// output-file name
 
 |FILEPOINTER|	= fopen( |FILEPOINTER|_file_name, "w" );

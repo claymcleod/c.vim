@@ -3,11 +3,11 @@ $ =============================================================
 $ ========== USER MACROS ======================================
 $ =============================================================
 $
-|AUTHOR|    = YOUR NAME 
-|AUTHORREF| = 
-|EMAIL|     = 
-|COMPANY|   = 
-|COPYRIGHT| = Copyright (c) |YEAR|, |AUTHOR|
+|AUTHOR|    = Clay McLeod
+|AUTHORREF| = clay
+|EMAIL|     = clay.mcleod@stjude.org
+|COMPANY|   = St. Jude Children's Research Hospital
+|COPYRIGHT| = Copyright (c) 2017, Clay McLeod
 |STYLE|     = default
 $
 $ =============================================================

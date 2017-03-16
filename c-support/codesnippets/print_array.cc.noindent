@@ -6,7 +6,7 @@
 //                for
 //                  T matrix[n1][n2];   
 // =====================================================================================
-  template < class T, unsigned width, unsigned precision >
+template < class T, unsigned width, unsigned precision >
 void print_array ( T      *array,               // array to print
                    int     n,                   // number of elements to print
                    int     nrow,                // number of elements per row

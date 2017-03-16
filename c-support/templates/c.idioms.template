@@ -24,7 +24,6 @@ static void<CURSOR> |FUNCTION_NAME| ( <+argument list+> )
 }		/* -----  end of static function |FUNCTION_NAME|  ----- */
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == idioms.main ==
-
 /* 
  * ===  FUNCTION  ======================================================================
  *         Name:  main
